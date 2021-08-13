@@ -1,0 +1,265 @@
+{
+  "gameloaded": "游戏已加载。",
+  "gamenotloaded": "游戏未加载。",
+  //
+  // 导航栏标题
+  //
+  "navbar.home": "今天",
+  "navbar.tasks": "日常任务",
+  "navbar.production": "生产",
+  "navbar.inventory": "库存",
+  "navbar.shipping": "基本发货",
+  "navbar.social": "社交",
+  "navbar.collections": "集合",
+  "navbar.bundles": "捆绑",
+  "navbar.quests": "任务",
+  "navbar.stats": "统计",
+  "navbar.mods": "我的模组",
+  "navbar.logs": "日志",
+  "navbar.about": "关于",
+  "navbar.multi": "多人游戏",
+  "navbar.modderutils": "实用工具",
+  "navbar.warps": "Warps",
+  "navbar.dailypic": "每日截图",
+  "navbar.events": "事件",
+  "navbar.locations": "位置",
+  "navbar.chestman": "宝箱经理",
+  "navbar.farm": "农场",
+  "navbar.farmer": "农民",
+  "navbar.console": "控制台",
+  "navbar.map": "地图",
+  "navbar.xnb": "XNB 文件",
+  "navbar.planning": "规划",
+  "navbar.machines": "机器",
+  "navbar.fish": "鱼",
+  "navbar.flowers": "鲜花",
+  "navbar.fruits": "水果",
+  "navbar.vegetables": "蔬菜",
+  "navbar.tools": "工具",
+  "navbar.weapons": "武器",
+  "navbar.crafting": "制作",
+  "navbar.artisan": "工匠商品",
+  "navbar.bigcraftable": "大型工艺品",
+  "navbar.crops": "作物",
+  "navbar.livestock": "牲畜",
+//
+  // 网络消息
+  //
+  "dailytasks.noquests": "您目前没有活动任务。",
+  "wm.cachecleared": "服务器缓存已清除。",
+  "wm.enablewarps": "翘曲被禁用。如果你想使用翘曲，​​请在配置视图中选择“启用翘曲”。",
+  "wm.potential.notenabled": "此选项已禁用。要查看此信息，请在 <a href='/Config'>Config</a> 视图中启用“显示潜在事件列表”。",
+  "wm.weather.any": "任何",
+  "wm.additem.okay": "{{qty}} {{prod}} 已添加到您的库存中。",
+  "wm.additem.full": "无法添加，您的库存已满。",
+  "wm.search.edible": "可食用。能量恢复：{{energy}} 健康恢复 {{health}}",
+  "wm.search.value": "(值增加：{{increase}}g)",
+  "wm.search.sells": "售价为 {{price}}g.",
+  "wm.search.nothing": "没什么。",
+  "wm.search.planted": "它们可以在{{season}}种植。",
+  "wm.search.tree": "这棵树会在 {{season}} 期间生产 {{crop}}。",
+  "wm.search.category": "[类别] {{类别}}",
+  "wm.search.type": "[Type] {{type}}",
+  "wm.search.name": "[Name] {{name}}",
+  "wm.search.query": "未找到与您的查询 '{{query}}' 匹配的项目。",
+  "wm.search.noreqs": "无要求。",
+  "wm.calendar.cart": "旅行车今天从 06:00 到 20:00 在苹果酒森林。",
+  "wm.calendar.blackberry": "黑莓成熟了。",
+  "wm.calendar.salmonberry": "鲑鱼的季节。",
+  "wm.eventtype.bday": "生日",
+  "wm.eventtype.bberry": "黑莓季节",
+  "wm.eventtype.festival": "节日",
+  "wm.eventtype.other": "其他",
+  "wm.eventtype.sberry": "三文鱼季节",
+   "wm.eventtype.cart": "旅行车",
+   "wm.calendar.birthday": "今天是 {{NPC}} 生日。",
+   "wm.mods.jamod": "这是一个 Json 资产内容包，并将以下项目添加到游戏中：",
+   "wm.mods.ja.crops": "作物",
+   "wm.mods.ja.objects": "对象",
+   "wm.mods.ja.bc": "大型工艺品",
+   "wm.mods.ja.other": "其他",
+   "wm.mods.ja.trees": "树木",
+   "wm.mods.ja.weapons": "武器",
+   "wm.mods.ja.clothing": "服装",
+   "wm.mods.ja.hats": "帽子",
+   "wm.mods.pfmmod": "这是一个 Producer Framework Mod，它为机器添加了制作配方。",
+   "wm.achieve.prereq": "你必须先完成成就 '{{achieve}}。",
+   "wm.achieve.unknown": "你必须完成一个未知的成就，密钥 {{key}}。",
+//
+  // 先决条件
+  //
+  "precon.location": "玩家在位置 '{{l}}'。",
+  "precon.sunny": "天气一定是晴天。",
+  "precon.rainy": "天气一定是下雨。",
+  "precon.pass": "通过:",
+  "precon.fail": "失败：",
+  "precon.or": " 或 ",
+  "precon.any": "任何",
+  "precon.a": "玩家位于图块位置 {{x}},{{y}}。",
+  "precon.a.maybe": "移动到位置 {{x}},{{y}}。",
+  "precon.b": "玩家至少到达矿井底层 {{b}} 次。",
+  "precon.c": "玩家至少有 {{c}} 个免费库存槽位。",
+  "precon.c.maybe": "如果玩家释放 {{c}} 个物品栏位。",
+  "precon.d": "今天不能是 {{d}}。",
+  "precon.e": "玩家已经看到了事件{{e}}。",
+  "precon.f.pass": "已通过 {{f}} 达到所需的好友级别。",
+  "precon.f.fail": "尚未达到与 {{f}} 所需的友谊等级。",
+  "precon.g": "玩家必须是 {{g}}。",
+  "precon.i": "玩家的库存中必须有 {{i}} 项。",
+  "precon.j": "玩家已经玩了超过 {{j}} 个游戏日。",
+  "precon.k": "玩家还没有看到 {{k}} 事件。",
+  "precon.l": "玩家没有看到邮件或邮件标志 {{l}}。",
+  "precon.m": "玩家必须至少赚到 {{m}} 的钱。",
+  "precon.n": "玩家已经看到邮件或邮件标志 {{n}}。",
+  "precon.o": "玩家未与 {{o}} 结婚。",
+  "precon.p": "{{p}} 在当前位置。",
+  "precon.p.maybe": "当 {{p}} 在位置 {{l}}",
+  "precon.q": "玩家选择了以下对话 ID：{{q}}。",
+  "precon.s": "玩家已经运送了以下物品和数量：{{s}}。",
+  "precon.t": "游戏时间必须在 {{min}} 和 {{max}} 之间。",
+  "precon.t.maybe": "在 {{min}} 和 {{max}} 小时之间。",
+  "precon.u": "月份中的日期必须是 {{u}}。",
+  "precon.v": "Tne NPC {{v}} 不是隐形的。",
+  "precon.x": "对于玩家将事件标记为已看到发送邮件 '{{x}}'",
+  "precon.y": "年份至少是 {{y}} 年。",
+  "precon.z": "季节不能是 {{z}}。",
+  "precon.cA": "对话 {{A}} 不在进行中。",
+  "precon.cC": "宿主玩家还没有完成社区中心或者没有看到盛大的重新开放。",
+  "precon.cD": "当前播放的是约会 {{D}}。",
+  "precon.cF": "今天不是节日。",
+  "precon.cH": "当前播放器是主机播放器。",
+  "precon.cHl": "主机播放器没有收到邮件或非邮件标志 {{Hl}}。",
+  "precon.cHn": "主机播放器已收到邮件或非邮件标志 {{Hn}}。",
+  "precon.cM": "玩家至少有 {M}} 笔钱。",
+  "precon.cM.maybe": "将你的余额增加到 {{M}}",
+  "precon.cO": "玩家与 {{O}} 结婚。",
+  "precon.cS": "玩家已经看到秘密笔记{{S}}。",
+  "precon.cU": "没有 {{U}} 天的节日。",
+  "precon._l": "主机播放器和当前播放器没有收到邮件或非邮件标志{{l}}。",
+  "precon._n": "主机播放器和当前播放器已收到邮件或非邮件标记 {{n}}。",
+//
+   // 产品修饰符
+   //
+   "prod.egg.brown": "(棕色)",
+   //
+   // 错误信息
+   //
+   "plugin.old": "您的一个插件已过期。请检查是否有任何插件更新。",
+   "plugin.error": "可能的插件问题，更新插件缓存时出错：",
+   "error.seelog": "发生错误，详情见日志。",
+   //
+   // 农民详细信息
+   //
+   "farmer.status.married": "已婚",
+   "farmer.status.divorced": "离婚",
+   "farmer.status.engaged": "订婚",
+   "farmer.status.single": "单身",
+   "farmer.gender.male": "男",
+   "farmer.gender.femal": "女",
+   //
+   // 友谊
+   //
+   "farmer.friendship.dating.girlfriend": "女朋友",
+   "farmer.friendship.dating.boyfriend": "男朋友",
+   "farmer.friendship.divorced": "离婚",
+   "farmer.friendship.engaged": "订婚",
+   "farmer.friendship.friendly": "单身",
+   "farmer.friendship.married": "已婚",
+//
+  // 答案
+  //
+  "answer.yes": "是的",
+  "answer.no": "否",
+  //
+  // 技能表
+  //
+  "skills.farming": "农业",
+  "skills.mining": "采矿",
+  "skills.foraging": "觅食",
+  "skills.fishing": "钓鱼",
+  "skills.combat": "战斗",
+  //
+  // 工具提示
+  //
+  "tooltip.canunderstanddwarves": "解锁与矿井中的矮人交谈的能力",
+  "tooltip.hasrustykey": "用于进入下水道",
+  "tooltip.hasmagnifyingglass": "解锁寻找秘密笔记的能力",
+  "tooltip.hasclubcard": "用来进入赌场",
+  "tooltip.hasspecialcharm": "永久增加每日运气",
+  "tooltip.hasskullkey": "解锁骷髅洞穴的门并解锁星之果实沙龙中的祝尼魔卡丁车",
+  "tooltip.hasdarktalisman": "任务物品",
+  "tooltip.hasmagicink": "任务物品",
+  "tooltip.hasbearpaw": "将黑莓和鲑鱼的售价提高 3 倍",
+  "tooltip.springonionbugs": "将大葱的售价提高 5 倍",
+  "tooltip.hastownkey": "允许在一天中的任何时间访问镇上的所有建筑物",
+  "tooltip.hasjojacard": "有一张 Joja 会员卡。",
+//
+  //  每天的任务
+  //
+  "tasks.complete": "全部完成！.",
+  "tasks.nothingtodo": "无事可做。",
+  //
+  // 动物任务
+  //
+  "tasks.animal.notpettedanimals": "非宠物动物",
+  "tasks.animal.uncollectedanimalproduct": "未收集的动物产品",
+  "tasks.animal.emptyhay": "喂食台上的空干草点",
+  "tasks.animal.at": " 在 ",
+  "tasks.animal.has": "有",
+  "tasks.animal.missinghay": "干草不见了",
+  "tasks.animal.missinghays": " 干草 在 ",
+  "tasks.animal.ponds.attention": "需要注意的池塘",
+  "tasks.animal.ponds.collect": "有待收集物品的池塘",
+  //
+  // 裁剪任务
+  //
+  "tasks.crop.notwatered": "庄稼没有浇水",
+  "tasks.crop.readytoharvest": "庄稼准备收割",
+  "tasks.crop.dead": "死掉的庄稼 ",
+  "tasks.crop.fruits": "带水果的果树",
+  "tasks.crop.label.unwatered": "未浇水的作物",
+  "tasks.crop.label.harvest": "准备收割庄稼",
+  "tasks.crop.label.crops": "死作物",
+  "tasks.crop.label.fruits": "有果实的果树",
+  "tasks.crop.treeat": " 树在 ",
+  "tasks.crop.with": " 和 ",
+  "tasks.crop.withfruit": "水果",
+  "tasks.crop.withfruits": "水果",
+  "tasks.crop.at": " 在 ",
+//
+   // 洞穴任务
+   //
+   "tasks.cave.incave": "在农场洞穴中",
+   "tasks.cave.itemname.fruits": "水果",
+   "tasks.cave.itemname.mushrooms": "蘑菇",
+   //
+   // 杂项任务
+   //
+   "tasks.misc.queen": "酱汁女王有一个新配方。",
+   "tasks.misc.merchant": "旅行商人在城里。",
+   "tasks.misc.birthday": "今天是 {{NPCName}} 的生日！",
+   "tasks.misc.nohay": "你没有干草了。",
+   "tasks.misc.hay": "你只剩下 {{count}} 个干草了。",
+   "tasks.misc.lastday": "这是季节的最后一天，确保收获所有适用的作物。",
+   //
+   // 对象任务
+   //
+   "tasks.object.crab": "准备收集螃蟹",
+   "tasks.object.crabpot": "没有诱饵的螃蟹",
+   "tasks.object.machine": "未收集的机器",
+   "tasks.object.silver": "银",
+   "tasks.object.gold": "黄金",
+   "tasks.object.iridium": "铱",
+   "tasks.object.with": " 和 ",
+//
+   // 宠物任务
+   //
+   "tasks.pet.pet": "你今天没有抚摸你的宠物。",
+   "tasks.pet.bowl": "你没有装满你宠物的碗。",
+   "tasks.at": " 在 ",
+   //
+   // 地形任务
+   //
+   "tasks.terrain.fence": "农场围栏损坏",
+   "tasks.terrain.damaged": "损坏的围栏："
+}
